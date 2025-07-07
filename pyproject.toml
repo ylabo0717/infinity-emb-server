@@ -1,0 +1,14 @@
+[project]
+name = "infinity-emb-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "infinity-emb[all]>=0.0.76",
+    "sentencepiece==0.2.0",
+    "torch>=2.7.1",
+    "torchaudio>=2.7.1",
+    "torchvision>=0.22.1",
+    "transformers==4.48.0",
+]
