@@ -25,7 +25,7 @@ uv sync
 To start the embedding server, run the following command:
 
 ```bash
-./run.sh
+./start_infinity.sh
 ```
 
 Or run directly:
