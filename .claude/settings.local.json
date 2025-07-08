@@ -1,8 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(claude init)"
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(uv pip:*)",
+      "Bash(echo:*)",
+      "Bash(uv run:*)",
+      "Bash(chmod:*)",
+      "Bash(uv sync:*)"
     ],
-    "deny": []
+    "deny": [
+      "Bash(sudo *)",
+      "Bash(rm -rf /)",
+      "Bash(rm -rf ~)",
+      "Bash(rm -rf ~/*)",
+      "Bash(rm -rf /*)"
+    ]
   }
 }
